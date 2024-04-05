@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <style>
+      body {
+        margin: 100px;
+      }
+
+      .required::after {
+        content: ' *';
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>bobbyhadz.com</h2>
+
+    <form>
+      <label class="required">First Name:</label>
+      <input type="text" id="first" name="first" />
+
+      <br />
+      <br />
+
+      <label class="required">Last Name:</label>
+      <input type="text" id="last" name="last" />
+
+      <br />
+      <br />
+
+      <label>Email:</label>
+      <input type="email" id="email" name="email" />
+
+      <br />
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
